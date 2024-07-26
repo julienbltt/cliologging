@@ -5,6 +5,15 @@ from logging import handlers
 from pathlib import Path
 
 
+def get(alias: str):
+        """
+        Get a logger instance.
+        :param alias: the logger alias.
+        :return: a manipulable logger object.
+        """
+        return logging.getLogger(alias)
+
+
 def create(alias: str, file_path: str | Path) -> logging.Logger:
     """
     Create a new logger with standard configuration for the majority project.
