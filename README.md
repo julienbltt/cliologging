@@ -1,6 +1,6 @@
 # Cliologging
 
-![version](https://img.shields.io/badge/version-1.0.0-blue)
+![version](https://img.shields.io/badge/version-1.0-blue)
 
 The cliologging library is an add-on to the official Python logging library.
 Clio is one of the nine Muses, and is the muse of history and annals. This name suggests an ability to record and archive events so that you can keep a log of your projects.
